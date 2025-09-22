@@ -25,7 +25,7 @@ const config = {
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   // baseUrl: '/',
-
+  
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'askdataisland-tw', // Usually your GitHub org/user name.
@@ -91,18 +91,23 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'tutorialSidebar',
+          //   position: 'left',
+          //   label: 'Tutorial',
+          // },
+          // {to: '/blog', label: 'Blog', position: 'left'},
+          // {
+          //   href: 'https://github.com/facebook/docusaurus',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // },
+          { to: '/about', label: 'About', position: 'left' },
+          { to: '/docs/intro', label: 'Resources', position: 'left' },
+          { to: '/blog', label: 'News', position: 'left' },
+          { href: 'https://data.example.com', label: 'Data Discover', position: 'left' }, // 外連資料入口（可改）
+          { href: '/login', label: 'Login', position: 'right', className: 'button button--primary button--sm' },
         ],
       },
       footer: {
