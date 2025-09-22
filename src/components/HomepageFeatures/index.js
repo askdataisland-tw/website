@@ -1,8 +1,21 @@
-// src/components/HomepageFeatures/index.js
 import clsx from 'clsx';
-import Link from '@docusaurus/Link';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+
+
+function Feature({Svg, title, description}) {
+  return (
+    <div className={clsx('col col--4')}>
+      <div className="text--center">
+        <Svg className={styles.featureSvg} role="img" />
+      </div>
+      <div className="text--center padding-horiz--md">
+        <Heading as="h3">{title}</Heading>
+        <p>{description}</p>
+      </div>
+    </div>
+  );
+}
 
 const FeatureList = [
   {
@@ -37,27 +50,13 @@ const FeatureList = [
   },
 ];
 
-function Feature({ Svg, title, description }) {
-  return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
-      </div>
-    </div>
-  );
-}
-
-/** 新增：四張卡片資料 */
+/** 新增：四張卡片的資料 */
 const CardsList = [
   {
     title: 'Remote Cameras',
     text: '管理與標記相機影像集，快速完成物種驗證與篩選。',
     to: '/docs/category/remote-cameras',
-    // Icon: require('@site/static/img/icon-camera.svg').default,
+    // Icon: require('@site/static/img/icon-camera.svg').default, // 若有圖示可打開
   },
   {
     title: 'Acoustic Data',
@@ -107,10 +106,10 @@ function Card({ title, text, to, href, Icon }) {
   );
 }
 
+
 export default function HomepageFeatures() {
   return (
     <>
-      {/* 原本的三格 features 區塊 */}
       <section className={styles.features}>
         <div className="container">
           <div className="row">
@@ -119,9 +118,9 @@ export default function HomepageFeatures() {
             ))}
           </div>
         </div>
-      </section>
-
-      {/* 新增：四張卡片的 section */}
+      </section>   
+      
+      {/* 新增的四卡片 Section */}
       <section className={styles.cardsSection}>
         <div className="container">
           <Heading as="h2" className="text--center">What you can do</Heading>

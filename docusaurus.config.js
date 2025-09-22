@@ -103,6 +103,7 @@ const config = {
           //   label: 'GitHub',
           //   position: 'right',
           // },
+          { to: '/solutions', label: 'Solutions', position: 'left' },
           { to: '/about', label: 'About', position: 'left' },
           { to: '/docs/intro', label: 'Resources', position: 'left' },
           { to: '/blog', label: 'News', position: 'left' },
