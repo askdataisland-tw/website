@@ -59,9 +59,9 @@ const CardsList = [
     // Icon: require('@site/static/img/icon-camera.svg').default, // 若有圖示可打開
   },
   {
-    title: 'Acoustic Data',
+  // title: 'Acoustic Data',
     text: '標註頻譜、批次處理音檔，協助加速辨識與審核。',
-    to: '/docs/category/acoustic',
+  // to: '/docs/category/acoustic',
     // Icon: require('@site/static/img/icon-audio.svg').default,
   },
   {
