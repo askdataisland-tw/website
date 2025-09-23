@@ -91,70 +91,15 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'tutorialSidebar',
-          //   position: 'left',
-          //   label: 'Tutorial',
-          // },
-          // {to: '/blog', label: 'Blog', position: 'left'},
-          // {
-          //   href: 'https://github.com/facebook/docusaurus',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
-          { to: '/solutions', label: 'Solutions', position: 'left' },
           { to: '/about', label: 'About', position: 'left' },
-          { to: '/docs/intro', label: 'Resources', position: 'left' },
-          { to: '/blog', label: 'News', position: 'left' },
-          { href: 'https://data.example.com', label: 'Data Discover', position: 'left' }, // 外連資料入口（可改）
-          { href: '/login', label: 'Login', position: 'right', className: 'button button--primary button--sm' },
+          { to: '/contact', label: 'Contact', position: 'left' },
+          { to: '/team', label: 'Our Team', position: 'left' },
         ],
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        links: [],
+  copyright: `Copyright © ${new Date().getFullYear()} 數嶼科技有限公司`,
       },
       prism: {
         theme: prismThemes.github,
