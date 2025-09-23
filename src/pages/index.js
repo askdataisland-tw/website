@@ -15,7 +15,7 @@ export default function Home() {
          <img src="/website/img/docusaurus.png" alt="Logo" style={{width: '120px', marginBottom: '2rem'}} />
           <h1 style={{fontSize: '3.2rem', fontWeight: 700, marginBottom: '1.5rem'}}>探索自然聲音與環境資料</h1>
           <p style={{fontSize: '1.5rem', maxWidth: '600px', margin: '0 auto'}}>
-            以科技串連生態、環境與社群，協助資料收集、分析與分享。
+            以科技串連生態、環境與社群，協助資料收集、分析
           </p>
         </section>
 
