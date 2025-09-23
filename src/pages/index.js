@@ -98,7 +98,7 @@ export default function Home() {
                 borderRadius: '16px',
                 boxShadow: '0 2px 12px rgba(44,62,80,0.08)',
                 padding: '2rem',
-                width: '220px',
+                width220px',
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
